@@ -1,10 +1,6 @@
 // get the name of the sheet for calculation
 CALCUL = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("CALCUL");
 
-function reset() {
-  CALCUL.getRange('E2:E183').setValue('1');
-}
-
 function increment(cell) {
   
   // get the boss status
